@@ -1,6 +1,3 @@
-// Fetch variables from config.js
-const { legendUrls, Configurations } = window.config;
-
 // Functie om een bounding box te maken op basis van RD-coördinaten en buffer
 function createBBox(rd_x, rd_y, buffer) {
     const minX = rd_x - (buffer[0] / 2) / 0.2;
